@@ -1,5 +1,8 @@
 function getNews(query){
-    const url = "https://newsapi.org/v2/top-headlines?country=in&category="+query+"&apiKey=5202e4aeadc5484aa654c7524f48d290";
+    const url =
+      "https://newsapi.org/v2/top-headlines?country=us&category=" +
+      query +
+      "&apiKey=9327be809f0e42dfa50ada6b4468aa8a";
         $.ajax({      
           url: url,
           method: "GET",
